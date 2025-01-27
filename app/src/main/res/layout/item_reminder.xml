@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/reminderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reminder Title"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Date TextView -->
+    <TextView
+        android:id="@+id/reminderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2025-01-27"
+        android:textSize="14sp"
+        android:textColor="#757575" />
+
+    <!-- Time TextView -->
+    <TextView
+        android:id="@+id/reminderTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:30"
+        android:textSize="14sp"
+        android:textColor="#757575" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete" />
+    </LinearLayout>
+</LinearLayout>
